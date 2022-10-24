@@ -241,6 +241,29 @@ p.product-info-text {
     flex-direction: column;
     align-items: center;
 }
+
+.form-container {
+    display: flex;
+    margin: 0 0 0 50px;
+}
+
+.contact-left {
+    display:flex;
+    flex-direction: column;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.call_to_action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .blue-container {
     display: flex;
     background-color: #3882F6;
@@ -290,7 +313,7 @@ p.product-info-text {
     color: #E5E7EB;
     border:#E5E7EB solid 1px;
     border-radius: 3px;
-    margin: 5px 10px;
+    margin: 5px;
     padding: 3px;
 }
 
