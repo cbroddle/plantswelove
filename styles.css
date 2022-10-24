@@ -275,7 +275,8 @@ p.product-info-text {
 .cta_text {
     font-size: 18px;
     color: #E5E7EB !important;
-    margin-top: 0;
+    margin: 0;
+    
 }
 
 .cta_button {
