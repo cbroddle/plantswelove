@@ -306,6 +306,7 @@ p.product-info-text {
     border:#F9FAF8;
     border-style: solid;
     border-width: 2px;
+    margin: 0 35px;
 }
 
 #name, #email {
