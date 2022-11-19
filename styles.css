@@ -347,3 +347,69 @@ p.product-info-text {
    text-decoration: underline;
    font-size: 16px;
 }
+
+@media screen and (max-width: 950px) and (min-width: 300px) {
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    .top, .information, .quote, .call_to_action {
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h1, p {
+        display: unset;
+    }
+
+    .hero-main-text, .hero-second-text {
+        width: 80vw;
+        padding: 0;
+    }
+
+    .hero-section {
+        display: flex;
+        align-items: center;
+    }
+    
+    .hero-image {
+        width: 100vw;
+        min-width: 350px;
+        padding: 50px 0;
+    }
+
+    .content-squares {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .blue-container {
+        width: 100vw;
+    }
+    
+    .footer {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+}
